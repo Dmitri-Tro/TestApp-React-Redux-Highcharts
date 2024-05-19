@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    background-color: #1976d2;
+    align-items: center;
+    padding: 20px 50px;
+
+    .logo {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 50px;
+        margin-right: 80px;
+
+        .link {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+
+            &:visited {
+                color: #ffffff;
+            }
+        }
+
+        .linkActive {
+            text-decoration: none;
+            color: #FFFF00FF;
+            font-size: 18px;
+        }
+    }
+}

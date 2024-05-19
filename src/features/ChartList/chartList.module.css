@@ -1,0 +1,34 @@
+.chartList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 60%;
+    text-align: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+
+    .chart {
+        position: relative;
+        border: 1px solid #c7c7c7;
+        border-radius: 5px;
+        width: 100%;
+        min-height: 400px;
+        align-items: center;
+        justify-content: center;
+
+        .chartArea {
+            min-height: 400px;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .btnsArea {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+    }
+}
